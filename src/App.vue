@@ -10,8 +10,6 @@
     <v-toolbar-items >
       <v-btn @click='onLogin' text to='/login'>Login</v-btn>
             <v-btn text to='/'>Home</v-btn>
-            <v-btn v-if="loggedin" text to='/'>Logout</v-btn>
-            <v-btn v-if="auth=='loggedin'" text to='/'>Logout</v-btn>
     </v-toolbar-items>
     </v-app-bar>
     <v-main>
