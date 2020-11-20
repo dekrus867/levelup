@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import { ILoginDTO } from '@/ILoginDTO'
 import { Account } from '@/services/Account'
+import createPersistedState from "vuex-persistedstate";
+
 
 Vue.use(Vuex)
 
