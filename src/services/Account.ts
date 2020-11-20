@@ -1,4 +1,3 @@
-import { ILoginDTO } from '../ILoginDTO'
 import Axios from 'axios'
 
 interface LoginResponse {
@@ -6,7 +5,7 @@ interface LoginResponse {
     status: string;
 }
 
-export abstract class Account {
+/* export abstract class Account {
   private static axios = Axios.create({
     baseURL: 'https://localhost:5100/login',
     headers: {
@@ -33,4 +32,4 @@ export abstract class Account {
       return null
     }
   }
-}
+} */

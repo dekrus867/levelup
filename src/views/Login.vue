@@ -46,7 +46,7 @@
 <script>
 import Vue from 'vue'
 import Vuetify from 'vuetify'
-import router from '../router'
+// import router from '../router'
 
 export default Vue.extend({
   name: 'login',
@@ -56,7 +56,6 @@ export default Vue.extend({
       valid: false,
       e1: true,
       password: '',
-      loggedIn: false,
       passwordRules: [
         (v) => !!v || 'Password is required'
       ],
@@ -78,14 +77,14 @@ export default Vue.extend({
     },
     clear () {
       this.$refs.form.reset()
-    },
-    login: function () {
+    }
+    /* login: function () {
       const email = this.email
       const password = this.password
       this.$store.dispatch('login', { email, password })
         .then(() => this.$router.push('/weather'))
         .catch(err => console.log(err))
-    }
+    } */
   }
 })
 </script>

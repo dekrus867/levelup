@@ -1,13 +1,11 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import { ILoginDTO } from '@/ILoginDTO'
-import { Account } from '@/services/Account'
-import createPersistedState from 'vuex-persistedstate'
+// import createPersistedState from 'vuex-persistedstate'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-  state: {
+  /* state: {
     jwt: null as string | null
   },
   mutations: {
@@ -31,5 +29,6 @@ export default new Vuex.Store({
     }
   },
   modules: {
-  }
+
+  } */
 })
